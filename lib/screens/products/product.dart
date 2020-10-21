@@ -19,7 +19,10 @@ class _ProductState extends State<Product> {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.of(context).pushNamed(ProductDetails.routeName);
+        Navigator.push(context, MaterialPageRoute(
+            builder: (context)=> ProductDetails(
+              productDto: widget.productDto,
+        )));
       },
       child: Builder(
         builder: (ctx) => Container(

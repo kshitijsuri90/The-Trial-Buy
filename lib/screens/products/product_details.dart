@@ -7,10 +7,12 @@ import 'package:flutter_myntra_clone/data_provider/product_dto.dart';
 
 class ProductDetails extends StatelessWidget {
   static const routeName = '/product-detail';
+  final ProductDto productDto;
+
+  ProductDetails({this.productDto});
 
   @override
   Widget build(BuildContext context) {
-    List<ProductDto> products = ProductData.getProductsListData();
 
     return Scaffold(
       body: SafeArea(
@@ -22,7 +24,7 @@ class ProductDetails extends StatelessWidget {
                   children: [
                     CachedImage(
                       url:
-                          'https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1729446/2019/3/8/cc183d9d-fc20-417a-8e05-1d8d7bbbb94a1552035336473-WROGN-Men-White--Blue-Printed-T-shirt-881552035334676-1.jpg',
+                          productDto.imageUrl,
                       height: (MediaQuery.of(context).size.height -
                               MediaQuery.of(context).padding.top -
                               MediaQuery.of(context).padding.bottom) *
@@ -39,7 +41,7 @@ class ProductDetails extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  'WROGN',
+                                  productDto.name,
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
@@ -49,7 +51,7 @@ class ProductDetails extends StatelessWidget {
                                   width: 5,
                                 ),
                                 Text(
-                                  'Printed T-Shirt Slim Fit',
+                                  productDto.description,
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.grey,
@@ -73,7 +75,7 @@ class ProductDetails extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  '₹779',
+                                  productDto.price,
                                   style: TextStyle(
                                     fontSize: 15,
                                     fontWeight: FontWeight.bold,
@@ -83,7 +85,7 @@ class ProductDetails extends StatelessWidget {
                                   width: 5,
                                 ),
                                 Text(
-                                  '₹1,299',
+                                  productDto.mrpPrice,
                                   style: TextStyle(
                                     fontSize: 15,
                                     color: Colors.grey,
@@ -94,7 +96,7 @@ class ProductDetails extends StatelessWidget {
                                   width: 5,
                                 ),
                                 Text(
-                                  '(40% OFF)',
+                                  productDto.discountString,
                                   style: TextStyle(
                                     fontSize: 15,
                                     color: Color.fromRGBO(255, 144, 90, 1),
