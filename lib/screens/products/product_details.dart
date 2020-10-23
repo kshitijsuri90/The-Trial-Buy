@@ -4,6 +4,7 @@ import 'package:flutter_myntra_clone/common_widgets/link_button.dart';
 import 'package:flutter_myntra_clone/common_widgets/primary_button.dart';
 import 'package:flutter_myntra_clone/data_provider/product_data.dart';
 import 'package:flutter_myntra_clone/data_provider/product_dto.dart';
+import 'package:flutter_myntra_clone/screens/body/body.dart';
 
 class ProductDetails extends StatelessWidget {
   static const routeName = '/product-detail';
@@ -34,89 +35,130 @@ class ProductDetails extends StatelessWidget {
                       color: Colors.white,
                       child: Padding(
                         padding: EdgeInsets.all(8),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        child: Row(
                           children: [
-                            Row(
-                              children: [
-                                Text(
-                                  productDto.name,
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
+                            Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    productDto.name,
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
+                                  SizedBox(
+                                    width: 5,
+                                  ),
+                                  Text(
+                                    productDto.description,
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              SizedBox(
+                                height: 2,
+                              ),
+                              Text(
+                                'Round Neck T-shirt',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 2,
+                              ),
+                              Row(
+                                children: [
+                                  Text(
+                                    productDto.price,
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 5,
+                                  ),
+                                  Text(
+                                    productDto.mrpPrice,
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      color: Colors.grey,
+                                      decoration: TextDecoration.lineThrough,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 5,
+                                  ),
+                                  Text(
+                                    productDto.discountString,
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      color: Color.fromRGBO(255, 144, 90, 1),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              SizedBox(
+                                height: 2,
+                              ),
+                              Text(
+                                'Inclusive of all taxes',
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  color: Color.fromRGBO(3, 166, 133, 1),
+                                ),
+                              ),
+                            ],
+                          ),
+                            SizedBox(
+                              width: 30,
+                            ),
+                            Row(
+                              children: <Widget>[
+                                FloatingActionButton(
+                                  heroTag:"btn1",
+                                  onPressed: () {
+                                    Navigator.of(context).pushNamed(Body.routeName);
+                                  },
+                                  child: Icon(Icons.height),
+                                  backgroundColor: Colors.green,
                                 ),
                                 SizedBox(
                                   width: 5,
                                 ),
-                                Text(
-                                  productDto.description,
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.grey,
-                                  ),
+                                FloatingActionButton(
+                                  heroTag: "btn2",
+                                  onPressed: () {
+
+                                  },
+                                  child: Icon(Icons.account_circle),
+                                  backgroundColor: Colors.green,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                FloatingActionButton(
+                                  heroTag: "bt3",
+                                  onPressed: () {
+
+                                  },
+                                  child: Icon(Icons.account_box),
+                                  backgroundColor: Colors.green,
                                 ),
                               ],
                             ),
-                            SizedBox(
-                              height: 2,
-                            ),
-                            Text(
-                              'Round Neck T-shirt',
-                              style: TextStyle(
-                                fontSize: 14,
-                                color: Colors.grey,
-                              ),
-                            ),
-                            SizedBox(
-                              height: 2,
-                            ),
-                            Row(
-                              children: [
-                                Text(
-                                  productDto.price,
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                Text(
-                                  productDto.mrpPrice,
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    color: Colors.grey,
-                                    decoration: TextDecoration.lineThrough,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                Text(
-                                  productDto.discountString,
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    color: Color.fromRGBO(255, 144, 90, 1),
-                                  ),
-                                ),
-                              ],
-                            ),
-                            SizedBox(
-                              height: 2,
-                            ),
-                            Text(
-                              'Inclusive of all taxes',
-                              style: TextStyle(
-                                fontSize: 13,
-                                color: Color.fromRGBO(3, 166, 133, 1),
-                              ),
-                            ),
-                          ],
-                        ),
+                        ],
                       ),
+                    ),
                     ),
                     SizedBox(
                       height: 10,

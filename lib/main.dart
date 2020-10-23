@@ -4,6 +4,7 @@ import 'package:flutter_myntra_clone/screens/login/login.dart';
 import 'package:flutter_myntra_clone/screens/login/otp.dart';
 import 'package:flutter_myntra_clone/screens/products/product_details.dart';
 import 'package:flutter_myntra_clone/screens/products/product_list.dart';
+import 'package:flutter_myntra_clone/screens/body/body.dart';
 
 void main() {
   runApp(App());
@@ -26,6 +27,7 @@ class App extends StatelessWidget {
         HomeScreen.routeName: (ctx) => HomeScreen(),
         ProductList.routeName: (ctx) => ProductList(),
         ProductDetails.routeName: (ctx) => ProductDetails(),
+        Body.routeName:(ctx) => Body(),
       },
     );
   }
