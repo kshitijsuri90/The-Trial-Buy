@@ -5,6 +5,8 @@ import 'package:flutter_myntra_clone/common_widgets/primary_button.dart';
 import 'package:flutter_myntra_clone/data_provider/product_data.dart';
 import 'package:flutter_myntra_clone/data_provider/product_dto.dart';
 import 'package:flutter_myntra_clone/screens/body/body.dart';
+import 'package:flutter_myntra_clone/screens/body/2d.dart';
+import 'package:flutter_myntra_clone/screens/body/3d.dart';
 
 class ProductDetails extends StatelessWidget {
   static const routeName = '/product-detail';
@@ -138,7 +140,7 @@ class ProductDetails extends StatelessWidget {
                                 FloatingActionButton(
                                   heroTag: "btn2",
                                   onPressed: () {
-
+                                    Navigator.of(context).pushNamed(TwoD.routeName);
                                   },
                                   child: Icon(Icons.account_circle),
                                   backgroundColor: Colors.green,
@@ -149,7 +151,7 @@ class ProductDetails extends StatelessWidget {
                                 FloatingActionButton(
                                   heroTag: "bt3",
                                   onPressed: () {
-
+                                    Navigator.of(context).pushNamed(ThreeD.routeName);
                                   },
                                   child: Icon(Icons.account_box),
                                   backgroundColor: Colors.green,

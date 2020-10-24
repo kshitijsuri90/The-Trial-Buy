@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:path/path.dart';
+import 'package:flutter_myntra_clone/body_measurement/body_measurements.dart';
+import 'package:flutter_myntra_clone/body_measurement/request.dart';
 
 
 class Body extends StatefulWidget {
@@ -153,25 +155,22 @@ class _BodyState extends State<Body> {
               SizedBox(
                 height: 20.0,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  RaisedButton(
-                    color: Color(0xff476cfb),
-                    onPressed: () {
-                      uploadPic(context);
-                    },
-
-                    elevation: 4.0,
-                    splashColor: Colors.blueGrey,
-                    child: Text(
-                      'Submit',
-                      style: TextStyle(color: Colors.white, fontSize: 16.0),
-                    ),
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: RaisedButton(
+                  color: Color(0xff476cfb),
+                  onPressed: () {
+                    uploadPic(context);
+                    createBodyMeasurement("title");
+                  },
+                  elevation: 4.0,
+                  splashColor: Colors.blueGrey,
+                  child: Text(
+                    'Submit',
+                    style: TextStyle(color: Colors.white, fontSize: 16.0),
                   ),
-
-                ],
-              )
+                ),
+              ),
             ],
           ),
         ),
