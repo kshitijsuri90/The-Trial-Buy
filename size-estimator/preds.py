@@ -31,9 +31,10 @@ print(X_test.iloc[1,:])
 
 @app.route("/predict",methods=['GET', 'POST'])
 def predict_size():
-    age = flask.request.get_json(force=True)
-    weight = flask.request.get_json(force=True)
-    height = flask.request.get_json(force=True)
+    get_params = flask.request.get_json(force=True)
+    age = get_params['age']
+    weight = get_params['weight']
+    height = get_params['height']
 
     knn_predictions = knn.predict(np.array([weight,age,height]))
     prediction = knn_predictions[0]
