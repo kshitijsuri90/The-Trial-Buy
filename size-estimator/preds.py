@@ -44,5 +44,9 @@ def predict_size():
         prediction = "L"
     elif(prediction == 'XL'):
         prediction = "M-L"
+    elif(prediction == "XXS"):
+        prediction = 'XS'
+    elif(prediction == "XS"):
+        prediction = 'S'
     return prediction
 
