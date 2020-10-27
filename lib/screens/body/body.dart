@@ -20,7 +20,7 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
-  File _image1,_image2;
+  File _image1;
   String image1base64,image2base64;
   String age,height,weight;
 
@@ -76,18 +76,6 @@ class _BodyState extends State<Body> {
       });
     }
 
-    Future getImage2() async {
-      var image = await ImagePicker.pickImage(source: ImageSource.gallery);
-      List<int> imageBytes = image.readAsBytesSync();
-      print(imageBytes);
-      String base64Image = base64Encode(imageBytes);
-      image2base64=base64Image;
-      setState(() {
-        _image2 = image;
-        print('Image2 base $image2base64');
-      });
-    }
-
     Future uploadPic(BuildContext context) async{
       var resBody={};
       resBody["front"]="image1base64";
@@ -104,7 +92,8 @@ class _BodyState extends State<Body> {
     return Scaffold(
       backgroundColor: Theme.of(context).accentColor,
       body: Builder(
-        builder: (context) =>  Container(
+        builder: (context) =>  SingleChildScrollView(
+          padding:const EdgeInsets.fromLTRB(0, 100, 0, 0) ,
 
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -123,8 +112,8 @@ class _BodyState extends State<Body> {
                           child: new SizedBox(
                             width: 180.0,
                             height: 180.0,
-                            child: (_image2!=null)?Image.file(
-                              _image2,
+                            child: (_image1!=null)?Image.file(
+                              _image1,
                               fit: BoxFit.fill,
                             ):Image.network(
                               "https://images.unsplash.com/photo-1502164980785-f8aa41d53611?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -141,7 +130,7 @@ class _BodyState extends State<Body> {
                             size: 30.0,
                           ),
                           onPressed: () {
-                            getImage2();
+                            getImage1();
                           },
                         ),
                       ),
