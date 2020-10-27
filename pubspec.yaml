@@ -31,6 +31,7 @@ dependencies:
   awesome_dialog: ^1.2.1
   giffy_dialog: ^1.8.0
   http: any
+  flutter_appavailability: ^0.0.21
 
 
   # The following adds the Cupertino Icons font to your application.

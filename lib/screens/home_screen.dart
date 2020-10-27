@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_myntra_clone/screens/categories/categories.dart';
 import 'package:flutter_myntra_clone/screens/home.dart';
+import 'package:flutter_myntra_clone/screens/body/3d.dart';
+
+import 'package:flutter_appavailability/flutter_appavailability.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/home';
@@ -18,6 +21,17 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  void _opend3D(){
+    AppAvailability.launchApp("com.example.sarvesh").then((_) {
+      print("App com.example.sarvesh launched!");
+    }).catchError((err) {
+      Scaffold.of(context).showSnackBar(SnackBar(
+          content: Text("App com.example.sarvesh not found!")
+      ));
+      print(err);
+    });
+  }
+
   Map<String, Object> _getPage() {
     final List<Map<String, Object>> _pages = [
       {
@@ -27,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
         'page': Categories(),
       },
       {
-        'page': Text(''),
+        'page': ThreeD(),
       },
       {
         'page': Text(''),
