@@ -16,7 +16,6 @@ class ProductDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -26,8 +25,7 @@ class ProductDetails extends StatelessWidget {
                 child: Column(
                   children: [
                     CachedImage(
-                      url:
-                          productDto.imageUrl,
+                      url: productDto.imageUrl,
                       height: (MediaQuery.of(context).size.height -
                               MediaQuery.of(context).padding.top -
                               MediaQuery.of(context).padding.bottom) *
@@ -40,117 +38,210 @@ class ProductDetails extends StatelessWidget {
                         child: Row(
                           children: [
                             Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Row(
-                                children: [
-                                  Text(
-                                    productDto.name,
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Row(
+                                  children: [
+                                    Text(
+                                      productDto.name,
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
-                                  ),
-                                  SizedBox(
-                                    width: 5,
-                                  ),
-                                  Text(
-                                    productDto.description,
-                                    style: TextStyle(
-                                      fontSize: 14,
-                                      color: Colors.grey,
+                                    SizedBox(
+                                      width: 5,
                                     ),
-                                  ),
-                                ],
-                              ),
-                              SizedBox(
-                                height: 2,
-                              ),
-                              Text(
-                                'Round Neck T-shirt',
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                              SizedBox(
-                                height: 2,
-                              ),
-                              Row(
-                                children: [
-                                  Text(
-                                    productDto.price,
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.bold,
+                                    Text(
+                                      productDto.description,
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.grey,
+                                      ),
                                     ),
-                                  ),
-                                  SizedBox(
-                                    width: 5,
-                                  ),
-                                  Text(
-                                    productDto.mrpPrice,
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.grey,
-                                      decoration: TextDecoration.lineThrough,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 5,
-                                  ),
-                                  Text(
-                                    productDto.discountString,
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      color: Color.fromRGBO(255, 144, 90, 1),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              SizedBox(
-                                height: 2,
-                              ),
-                              Text(
-                                'Inclusive of all taxes',
-                                style: TextStyle(
-                                  fontSize: 13,
-                                  color: Color.fromRGBO(3, 166, 133, 1),
-                                ),
-                              ),
-                            ],
-                          ),
-                            SizedBox(
-                              width: 50,
-                            ),
-                            Row(
-                              children: <Widget>[
-                                FloatingActionButton(
-                                  heroTag:"btn1",
-                                  onPressed: () {
-                                    Navigator.of(context).pushNamed(Body.routeName);
-                                  },
-                                  child: Icon(Icons.height),
-                                  backgroundColor: Colors.green,
+                                  ],
                                 ),
                                 SizedBox(
-                                  width: 20,
+                                  height: 2,
                                 ),
-                                FloatingActionButton(
-                                  heroTag: "btn2",
-                                  onPressed: () {
-                                    Navigator.of(context).pushNamed(TwoD.routeName);
-                                  },
-                                  child: Icon(Icons.dashboard_outlined),
-                                  backgroundColor: Colors.green,
+                                Text(
+                                  'Round Neck T-shirt',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 2,
+                                ),
+                                Row(
+                                  children: [
+                                    Text(
+                                      productDto.price,
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 5,
+                                    ),
+                                    Text(
+                                      productDto.mrpPrice,
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.grey,
+                                        decoration: TextDecoration.lineThrough,
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 5,
+                                    ),
+                                    Text(
+                                      productDto.discountString,
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Color.fromRGBO(255, 144, 90, 1),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(
+                                  height: 2,
+                                ),
+                                Text(
+                                  'Inclusive of all taxes',
+                                  style: TextStyle(
+                                    fontSize: 13,
+                                    color: Color.fromRGBO(3, 166, 133, 1),
+                                  ),
                                 ),
                               ],
                             ),
-                        ],
+                            SizedBox(
+                              width: 30,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
+                    SizedBox(
+                      height: 10,
                     ),
+                    Container(
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.all(10),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(top: 5, bottom: 15),
+                                child: Text(
+                                  'Size Estimator',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: <Widget>[
+                                  Column(
+                                    children: [
+                                      FloatingActionButton(
+                                        heroTag: "btn1",
+                                        onPressed: () {
+                                          Navigator.of(context)
+                                              .pushNamed(Body.routeName);
+                                        },
+                                        child: Icon(
+                                          Icons.height,
+                                          color:
+                                              Color.fromRGBO(255, 63, 108, 1),
+                                        ),
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(top: 10),
+                                        child: Text(
+                                          'User Details',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.w600,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  SizedBox(
+                                    width: 5,
+                                  ),
+                                  Column(
+                                    children: [
+                                      FloatingActionButton(
+                                        heroTag: "btn2",
+                                        onPressed: () {
+                                          Navigator.of(context)
+                                              .pushNamed(TwoD.routeName);
+                                        },
+                                        child: Icon(
+                                          Icons.account_circle,
+                                          color:
+                                              Color.fromRGBO(255, 63, 108, 1),
+                                        ),
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(top: 10),
+                                        child: Text(
+                                          '2D try on',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.w600,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  SizedBox(
+                                    width: 5,
+                                  ),
+                                  /*Column(
+                                    children: [
+                                      FloatingActionButton(
+                                        heroTag: "bt3",
+                                        onPressed: () {
+                                          Navigator.of(context)
+                                              .pushNamed(ThreeD.routeName);
+                                        },
+                                        child: Icon(
+                                          Icons.account_box,
+                                          color:
+                                              Color.fromRGBO(255, 63, 108, 1),
+                                        ),
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(top: 10),
+                                        child: Text(
+                                          'Side Image',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.w600,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),*/
+                                ],
+                              ),
+                            ],
+                          ),
+                        )),
                     SizedBox(
                       height: 10,
                     ),
