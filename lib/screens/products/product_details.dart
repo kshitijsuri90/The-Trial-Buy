@@ -122,7 +122,7 @@ class ProductDetails extends StatelessWidget {
                             ],
                           ),
                             SizedBox(
-                              width: 30,
+                              width: 50,
                             ),
                             Row(
                               children: <Widget>[
@@ -135,25 +135,14 @@ class ProductDetails extends StatelessWidget {
                                   backgroundColor: Colors.green,
                                 ),
                                 SizedBox(
-                                  width: 5,
+                                  width: 20,
                                 ),
                                 FloatingActionButton(
                                   heroTag: "btn2",
                                   onPressed: () {
                                     Navigator.of(context).pushNamed(TwoD.routeName);
                                   },
-                                  child: Icon(Icons.account_circle),
-                                  backgroundColor: Colors.green,
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                FloatingActionButton(
-                                  heroTag: "bt3",
-                                  onPressed: () {
-                                    Navigator.of(context).pushNamed(ThreeD.routeName);
-                                  },
-                                  child: Icon(Icons.account_box),
+                                  child: Icon(Icons.dashboard_outlined),
                                   backgroundColor: Colors.green,
                                 ),
                               ],
