@@ -63,8 +63,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           BottomNavigationBarItem(
             backgroundColor: Theme.of(context).accentColor,
-            icon: Icon(Icons.tv_outlined),
-            label: 'Studio',
+            icon: Image.asset(
+              'assets/icon_threed.png',
+              width: 30,
+              height: 30,
+            ),
+            label: '3D Shop',
           ),
           BottomNavigationBarItem(
             backgroundColor: Theme.of(context).accentColor,
