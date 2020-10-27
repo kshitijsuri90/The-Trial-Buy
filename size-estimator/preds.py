@@ -11,35 +11,37 @@ print('Libraries Imported')
 app = flask.Flask(__name__)
 run_with_ngrok(app)
 
-dataset = pd.read_csv('final_test.csv')
-print(dataset)
-
-dataset = dataset[dataset['age'].notna()]
-dataset = dataset[dataset['height'].notna()]
-print(dataset)
-
-X = dataset.iloc[:,:3]
-y = dataset.iloc[:,3]
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state = 0) 
-
-from sklearn.neighbors import KNeighborsClassifier 
-knn = KNeighborsClassifier(n_neighbors = 7).fit(X_train, y_train) 
-
-accuracy = knn.score(X_test, y_test) 
-print(accuracy)
-  
-print(X_test.iloc[1,:])
-# knn_predictions = knn.predict(np.array([[56,22,180]]))
-# print(knn_predictions)
 
 @app.route("/predict",methods=['GET', 'POST'])
 def predict_size():
-    get_params = flask.request.get_json(force=True)
-    age = get_params['age']
-    weight = get_params['weight']
-    height = get_params['height']
+    dataset = pd.read_csv('final_test.csv')
+    print(dataset)
 
-    knn_predictions = knn.predict(np.array([weight,age,height]))
+    dataset = dataset[dataset['age'].notna()]
+    dataset = dataset[dataset['height'].notna()]
+    print(dataset)
+
+    X = dataset.iloc[:,:3]
+    y = dataset.iloc[:,3]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state = 0) 
+
+    from sklearn.neighbors import KNeighborsClassifier 
+    knn = KNeighborsClassifier(n_neighbors = 7).fit(X_train, y_train) 
+
+    accuracy = knn.score(X_test, y_test) 
+    print(accuracy)
+    
+    print(X_test.iloc[1,:])
+    # knn_predictions = knn.predict(np.array([[56,22,180]]))
+    # print(knn_predictions)
+
+    get_params = flask.request.get_json(force=True)
+    print(get_params)
+    age = get_params["age"]
+    weight = get_params["weight"]
+    height = get_params["height"]
+
+    knn_predictions = knn.predict(np.array([[weight,age,height]]))
     prediction = knn_predictions[0]
 
     if(prediction == 'XXXL'):
