@@ -44,31 +44,6 @@ Future _showcontent(String size,BuildContext context) {
           }
         },
          );
-        /*
-        new AlertDialog(
-        title: new Text('Size'),
-        content: new SingleChildScrollView(
-          child: new ListBody(
-            children: [
-              new Text('Your size is $size.'),
-            ],
-          ),
-        ),
-        actions: [
-          new FlatButton(
-            child: new Text('Ok'),
-            onPressed: () {
-              Navigator.of(context).pop();
-              if (Navigator.canPop(context)) {
-                Navigator.pop(context);
-              } else {
-                SystemNavigator.pop();
-              }
-            },
-          ),
-        ],
-      );
-      */
     },
   );
 }
@@ -81,7 +56,7 @@ Future createBodyMeasurement(String age,String height,String weight,BuildContext
   String str=json.encode(resBody);
   print(str);
   final http.Response response = await http.post(
-    'https://d5b0c511242b.ngrok.io/predict',
+    'https://c87ac0f6be11.ngrok.io/predict',
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
