@@ -22,11 +22,13 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   File _image1;
   String image1base64,image2base64;
-  String age,height,weight;
+  String _age,_height,_weight,_size;
 
   final ageController = TextEditingController();
   final heightController = TextEditingController();
   final weightController = TextEditingController();
+
+
 
   @override
   void dispose() {
@@ -48,17 +50,17 @@ class _BodyState extends State<Body> {
 
   _ageLatestValue(){
     print("age ${ageController.text}");
-    age=ageController.text;
+    _age=ageController.text;
   }
 
   _weightLatestValue(){
     print("age ${weightController.text}");
-    weight=weightController.text;
+    _weight=weightController.text;
   }
 
   _heightLatestValue(){
     print("age ${heightController.text}");
-    height=heightController.text;
+    _height=heightController.text;
   }
 
   @override
@@ -73,19 +75,6 @@ class _BodyState extends State<Body> {
       setState(() {
         _image1 = image;
         print('Image1 base $base64Image');
-      });
-    }
-
-    Future uploadPic(BuildContext context) async{
-      var resBody={};
-      resBody["front"]="image1base64";
-      resBody["side"]="image2base64";
-      String str=json.encode(resBody);
-
-      setState(() {
-        print("Profile Picture uploaded");
-        print(str);
-        Scaffold.of(context).showSnackBar(SnackBar(content: Text('Profile Picture Uploaded')));
       });
     }
 
@@ -254,7 +243,7 @@ class _BodyState extends State<Body> {
                           child: PrimaryButton(
                             title: 'SUBMIT',
                             onPressed: () => {
-
+                                createBodyMeasurement(_age, _height, _weight,context)
                             },
                           ),
                         ),
