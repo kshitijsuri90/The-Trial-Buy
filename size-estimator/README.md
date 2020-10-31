@@ -11,3 +11,16 @@ Before running the file download this file [here](https://drive.google.com/file/
 ___
 2. **App Screens**:-
 
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/1.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/2.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/3.jpeg?raw=true" width = "250" height = "500" /></td>
+  </tr>
+ </table>
+
