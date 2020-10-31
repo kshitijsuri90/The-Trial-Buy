@@ -26,13 +26,27 @@ ___
 
 ___
 3. **Parameters for Input**:-
-
+<!--
   * Input Image
   * Height (in cms)
   * Weight (in kgs)
-  * Age (in years)
+  * Age (in years) -->
   
-  <img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" />
+  <table>
+  <tr>
+    <td>Parameters</td>
+    <td>Image</td>
+  </tr>
+  <tr>
+    <td style="height:500;width:250"><p>Input Image</p>
+      <p>Height (in cms)</p>
+      <p>Weight (in kgs)</p>
+      <p>Age (in years)</p></td>
+    <td style="height:500;width:250"><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" /></td>
+  </tr>
+ </table>
+  
+ <!--<img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" /> -->
 
 ___
 4. **Dataset and Technologies used**:-
