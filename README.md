@@ -1,4 +1,6 @@
 ## The-Trial-Buy
+___
+*Myntra Hackerramp project to improve user experience while shopping*
 
 **Made with**:-
 
@@ -11,4 +13,3 @@
 ![](https://img.shields.io/badge/unity%20-%23100000.svg?&style=for-the-badge&logo=unity&logoColor=white)
 ![]()
 
-Myntra Hackerramp project to improve user experience while shopping
