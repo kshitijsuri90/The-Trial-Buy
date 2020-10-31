@@ -13,9 +13,9 @@ ___
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
+    <td>App Screen 1</td>
+    <td>App Screen 2</td>
+    <td>App Screen 3</td>
   </tr>
   <tr>
     <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/1.jpeg?raw=true" width = "250" height = "500" /></td>
