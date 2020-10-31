@@ -1,0 +1,13 @@
+*.zip
+test.sh
+time.txt
+output.time.txt
+*.txt
+*.pyc
+*.html
+*.css
+*.js
+*.html~
+*.npy
+*.log
+static/*
