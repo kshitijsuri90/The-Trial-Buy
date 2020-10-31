@@ -11,5 +11,13 @@ ___
 ![](https://img.shields.io/badge/flask%20-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
 ![](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/unity%20-%23100000.svg?&style=for-the-badge&logo=unity&logoColor=white)
-![]()
+
+___
+**Sections:-**
+
+1. Machine Learning and Deep Learning - 
+  * Size-Estimator
+  * 2d-Try-On
+  
+2. 
 
