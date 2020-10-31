@@ -15,14 +15,18 @@ ___
 ___
 **Sections:-**
 
-1. Machine Learning and Deep Learning - 
+1. ***Machine Learning and Deep Learning*** - 
   * Size-Estimator
   * 2d-Try-On
   
-2. Unity 
+2. ***Unity*** 
   * 3d-Wear-Visualizer
 
-3. Flutter App
+3. ***Flutter App***
   * Entire Myntra Clone
   * Above Integerations with Myntra App and Backend App
+
+___
+**User Story:-**
+
 
