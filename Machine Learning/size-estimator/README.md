@@ -18,9 +18,9 @@ ___
     <td>App Screen 3</td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/1.jpeg?raw=true" width = "250" height = "500" /></td>
-    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/2.jpeg?raw=true" width = "250" height = "500" /></td>
-    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/3.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/1.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/2.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/3.jpeg?raw=true" width = "250" height = "500" /></td>
   </tr>
  </table>
 
@@ -42,7 +42,7 @@ ___
       <p>Height (in cms)</p>
       <p>Weight (in kgs)</p>
       <p>Age (in years)</p></td>
-    <td style="height:500;width:250"><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" /></td>
+    <td style="height:500;width:250"><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" /></td>
   </tr>
  </table>
   
