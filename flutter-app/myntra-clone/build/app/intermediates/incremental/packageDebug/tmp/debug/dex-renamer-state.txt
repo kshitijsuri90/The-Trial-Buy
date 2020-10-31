@@ -1,0 +1,4 @@
+#Sat Oct 31 14:55:08 IST 2020
+base.0=/home/prakash/Downloads/flutter-myntra-clone-master/flutter-app/myntra-clone/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
