@@ -4,13 +4,10 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 import flask
-from flask_ngrok import run_with_ngrok
 
 print('Libraries Imported')
 
 app = flask.Flask(__name__)
-run_with_ngrok(app)
-
 
 @app.route("/predict",methods=['GET', 'POST'])
 def predict_size():
@@ -61,4 +58,4 @@ def hello_world():
     return "Hello World!"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='127.0.0.1',port=8000,debug=True,threaded=True)
