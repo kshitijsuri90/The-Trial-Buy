@@ -33,3 +33,9 @@ ___
   * Age (in years)
   
   <img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/size-estimator/assets/4.jpeg?raw=true" width = "250" height = "500" />
+
+4. **Dataset and Technologies used**:-
+
+  * Dataset Link - [Link](https://www.kaggle.com/tourist55/clothessizeprediction)
+  * Posenet - [Link](https://github.com/rwightman/posenet-python)
+
