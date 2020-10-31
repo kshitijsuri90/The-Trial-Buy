@@ -19,5 +19,10 @@ ___
   * Size-Estimator
   * 2d-Try-On
   
-2. 
+2. Unity 
+  * 3d-Wear-Visualizer
+
+3. Flutter App
+  * Entire Myntra Clone
+  * Above Integerations with Myntra App and Backend App
 
