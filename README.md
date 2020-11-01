@@ -29,7 +29,5 @@ ___
   * Entire Myntra Clone
   * Above Integerations with Myntra App and Backend App
 
-___
-**User Story:-**
 
 
