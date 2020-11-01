@@ -28,6 +28,15 @@ ___
 3. ***Flutter App***
   * Entire Myntra Clone
   * Above Integerations with Myntra App and Backend App
+  
+___
+**Team**:-
 
+<img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/undraw_team_ih79.png?raw=true" width = "400" height = "400"/>
+
+* Sarvesh Dubey
+* Kshitij Suri
+* Prakash Saini
+* Punit Jain
 
 
