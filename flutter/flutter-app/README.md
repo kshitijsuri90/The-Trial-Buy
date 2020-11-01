@@ -2,6 +2,8 @@
 
 ___
 
+<img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/Big%20Sur%20Icons%20(Community).png?raw=true" />
+
 **User Story:-**
 
 <table style="border-spacing:15px">
