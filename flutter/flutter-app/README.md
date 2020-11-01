@@ -30,12 +30,15 @@ ___
 5. [Size Estimator](https://github.com/kshitijsuri90/The-Trial-Buy/tree/main/Machine%20Learning/size-estimator) and [2d-Try-On](https://github.com/kshitijsuri90/The-Trial-Buy/tree/main/Machine%20Learning/2d_trial)
 6. [Studio for 3D Visual for clothes](https://github.com/kshitijsuri90/The-Trial-Buy/tree/main/Unity)
 
+___
 
 **Run:-**
-***Prerequisite***- Run ML folder on localhost.
+
+***Prerequisite*** - Run ML folder on localhost.
 
 Run main.dart in myntra-clone folder
 
+___
 
 **APK:-**
 https://drive.google.com/file/d/1tOS1PdtK9Jv4B08wfStMUNhoGZbuunFz/view?usp=sharing
