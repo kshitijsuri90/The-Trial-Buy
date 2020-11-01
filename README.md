@@ -19,7 +19,7 @@ ___
 **Sections:-**
 
 1. ***Machine Learning and Deep Learning*** - 
-  * Size-Estimator **SOLE PROPRIETARY (TEAMDEV)**
+  * Size-Estimator **SOLE PROPRIETARY DATASET(TEAMDEV)**
   * 2d-Try-On
   
 2. ***Unity*** 
