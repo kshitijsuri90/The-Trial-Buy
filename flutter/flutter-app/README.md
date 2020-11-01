@@ -19,4 +19,13 @@ ___
   </tr>
  </table>
 
+**User Flow:-**
+
+1. Sign Up using Mobile OTP
+2. Main Screen
+3. Deals and Fashion Sales on Main Screen
+4. Categories 
+5. [Size Estimator](https://github.com/kshitijsuri90/The-Trial-Buy/tree/main/Machine%20Learning/size-estimator) and 2d-Try-On
+6. Studio for 3D Visual for clothes
+
 
