@@ -21,3 +21,9 @@ ___
     <td><img src = "https://github.com/kshitijsuri90/The-Trial-Buy/blob/main/Machine%20Learning/size-estimator/assets/13.jpg?raw=true" width = "250" height = "500" /></td>
   </tr>
  </table>
+
+**User Story:-**
+
+1. User Navigates to Studio in Main App
+2. Unity AR app opens
+3. Options of different clothes (with 3d models of clothes)
