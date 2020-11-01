@@ -1,0 +1,377 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.XR.ARSubsystems.dll
+/unsafe
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1
+/define:UNITY_2020_1_10
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_UNITYADS_API
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRAnchor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRAnchorSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRAnchorSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRReferencePoint.deprecated.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRReferencePointSubsystem.deprecated.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AnchorSubsystem\XRReferencePointSubsystemDescriptor.deprecated.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\AssemblyInfo.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\CameraFocusMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\LightEstimationMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraConfiguration.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraFrame.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraIntrinsics.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraParams.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CameraSubsystem\XRCameraSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Configuration\Configuration.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Configuration\ConfigurationChooser.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Configuration\ConfigurationDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Configuration\DefaultConfigurationChooser.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Configuration\Feature.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\CpuImageFormat.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\DepthSubsystem\XRDepthSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\DepthSubsystem\XRDepthSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\DepthSubsystem\XRPointCloud.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\DepthSubsystem\XRPointCloudData.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbe.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\FaceSubsystem\XRFace.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\FaceSubsystem\XRFaceMesh.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\FaceSubsystem\XRFaceSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\FaceSubsystem\XRFaceSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\GuidUtil.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HashCode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HumanBodySubsystem\XRHumanBody.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HumanBodySubsystem\XRHumanBodyJoint.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HumanBodySubsystem\XRHumanBodySubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\HumanBodySubsystem\XRHumanBodySubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\IReferenceImageLibrary.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\MutableRuntimeReferenceImageLibrary.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\RuntimeReferenceImageLibrary.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\XRReferenceImage.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\XRReferenceImageLibrary.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ImageTrackingSubsystem\XRTrackedImage.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\InputSubsystem\HandheldARInputDevice.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\NativeCopyUtility.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\NotTrackingReason.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRReferenceObject.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRReferenceObjectEntry.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRReferenceObjectLibrary.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ObjectTrackingSubsystem\XRTrackedObject.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\EnvironmentDepthMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\HumanSegmentationDepthMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\HumanSegmentationStencilMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\OcclusionPreferenceMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\XROcclusionSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\OcclusionSubsystem\XROcclusionSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ParticipantSubsystem\XRParticipant.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ParticipantSubsystem\XRParticipantSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ParticipantSubsystem\XRParticipantSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\BoundedPlane.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\PlaneAlignment.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\PlaneClassification.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\PlaneDetectionMode.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\XRPlaneSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\PlaneTracking\XRPlaneSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\Promise.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\RaycastSubsystem\TrackableType.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\RaycastSubsystem\XRRaycast.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\RaycastSubsystem\XRRaycastHit.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\RaycastSubsystem\XRRaycastSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\RaycastSubsystem\XRRaycastSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\ScopedProfiler.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SerializableGuid.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SessionSubsystem\SessionAvailability.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SessionSubsystem\SessionInstallationStatus.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SessionSubsystem\XRSessionSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SessionSubsystem\XRSessionSubsystemDescriptor.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\SessionSubsystem\XRSessionUpdateParams.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackableId.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackingState.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackingSubsystem\ITrackable.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackingSubsystem\TrackableChanges.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackingSubsystem\TrackingSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\TrackingSubsystem\ValidationUtility.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\Api.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\AsyncConversion.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\AsyncConversionStatus.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\ConversionParams.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\Plane.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\Transformation.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRCpuImage\XRCpuImage.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRSubsystem.cs
+D:\Programming\AR\Sarvesh\Library\PackageCache\com.unity.xr.arsubsystems@4.1.0-preview.5\Runtime\XRTextureDescriptor.cs
