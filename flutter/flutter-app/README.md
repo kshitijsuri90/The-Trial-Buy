@@ -31,3 +31,11 @@ ___
 6. [Studio for 3D Visual for clothes](https://github.com/kshitijsuri90/The-Trial-Buy/tree/main/Unity)
 
 
+**Run:-**
+***Prerequisite***- Run ML folder on localhost.
+
+Run main.dart in myntra-clone folder
+
+
+**APK:-**
+https://drive.google.com/file/d/1tOS1PdtK9Jv4B08wfStMUNhoGZbuunFz/view?usp=sharing
