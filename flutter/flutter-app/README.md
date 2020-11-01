@@ -4,7 +4,7 @@ ___
 
 **User Story:-**
 
-<table>
+<table style="border-spacing:15px">
   <tr>
     <td>App Screen 1</td>
     <td>App Screen 2</td>
