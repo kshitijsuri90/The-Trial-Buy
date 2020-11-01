@@ -1,1 +1,7 @@
-# Flutter Myntra Clone
+### Flutter Myntra Clone
+
+___
+
+**User Story:-**
+
+
